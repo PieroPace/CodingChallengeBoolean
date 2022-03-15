@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  body {
+      background-image: url("img/background.jpg");
+      height: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  /* CONTENITORE */
+  .container {
+    width: 1000px;
+    margin: 30px auto;
+    border-radius: 20px;
+    padding: 70px;
+    background-color: rgba(0,0,0,0.45);
+  }
+  
+  /* HEADER */
+  header > img {
+    width: 230px;
+    margin-bottom: 0;
+  }
+  
+  header > h1 {
+    color: rgba(1,221,0,255);
+    margin: 5px auto;
+  }
+  
+  header, nav{
+    text-align: center;
+  }
+  
+  /* MENU */
+  nav {
+    background-color: lime;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  /* CONTENITORE PRINCIPALE */
+  main > section {
+    color:white;
+  }
+  
+  section h2 {
+    line-height: 10px;
+    font-size: 20px;
+  }
+  
+  section p {
+    line-height: 10px;
+    margin-bottom: 7px;
+  }
+  
+  section > div {
+    height: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  
+  h2 > span:after {
+    content: "\2756 ";
+  }
+  
+  p > span:after {
+    content: "\21A6";
+  }
+  
+  #first_charge{
+    background-color: rgba(245,180,83,255);
+    width: 300px;
+  }
+  
+  #second_charge{
+    background-color: rgba(30,195,30,255);
+    width: 500px;
+  }
+  
+  #third_charge{
+    background-color: rgba(190,65,65,255);
+    width: 120px;
+  }
